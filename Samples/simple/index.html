@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <META HTTP-EQUIV="EXPIRES" CONTENT="-1" />
+     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="dash.css">
+     <script src="dash.js"></script>
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxvmo7FSASjcoRPFN5ArAHmNZ1sUQVCIc&callback=initMap"
+        async defer></script>
+     
+  </head>
+   
+  <body>
+    <form action="dashboard.html">
+        <input type="button" value="차트보기" onclick="showFrontLayer();"/>
+       <div id="map"></div>
+
+        <div id="bg_mask">
+          <div id="frontlayer">
+             <div id="result"></div>
+            <input type="button" value="숨기기" onclick="hideFrontLayer();"/>
+          </div>
+        </div>
+
+    </form>
+  </body>
+</html>

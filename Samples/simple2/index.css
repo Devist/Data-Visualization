@@ -1,0 +1,17 @@
+#bg_mask {
+  position: absolute;
+  top: 10%;
+  right: 0px;
+  z-index: 0;
+  visibility: hidden;
+  opacity:0.8;   
+} 
+
+#frontlayer {
+  visibility: hidden;
+  z-index: 1;
+  opacity:0.8;   
+} 
+#map {
+        height: 100%;
+      }
